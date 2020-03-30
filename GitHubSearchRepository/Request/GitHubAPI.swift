@@ -25,6 +25,8 @@ final class GitHubAPI {
         var queryItems: [URLQueryItem] {
             return [URLQueryItem(name: "q", value: keyword)]
         }
+        
+        var body: Encodable? { return nil }
     }
     
     struct SearchUsers : GitHubRequest {
@@ -43,5 +45,7 @@ final class GitHubAPI {
         var queryItems: [URLQueryItem] {
             return [URLQueryItem(name: "q", value: keyword)]
         }
+        
+        var body: Encodable? { return nil }
     }
 }

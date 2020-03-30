@@ -15,7 +15,7 @@ protocol GitHubRequest {
     var path: String { get }
     var method: HTTPMethod { get }
     var queryItems: [URLQueryItem] { get }
-//    var body: Encodable? { get }
+    var body: Encodable? { get }
 }
 
 extension GitHubRequest {

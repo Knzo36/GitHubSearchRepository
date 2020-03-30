@@ -90,8 +90,8 @@
 		13F8F9E724307518004594A6 /* GitHubSearchRepository */ = {
 			isa = PBXGroup;
 			children = (
-				13F8FA0824323EB2004594A6 /* Error */,
 				13F8F9E824307518004594A6 /* main.swift */,
+				13F8FA0824323EB2004594A6 /* Error */,
 				13F8FA0D24324DAE004594A6 /* Request */,
 				13F8F9FC243090B8004594A6 /* Response */,
 			);
@@ -111,9 +111,9 @@
 		13F8F9FC243090B8004594A6 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				13F8F9FD2430918E004594A6 /* User.swift */,
 				13F8FA032430982B004594A6 /* Repository.swift */,
 				13F8FA0624323D3D004594A6 /* SearchResponse.swift */,
+				13F8F9FD2430918E004594A6 /* User.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 		13F8FA0824323EB2004594A6 /* Error */ = {
 			isa = PBXGroup;
 			children = (
-				13F8FA0924323EC9004594A6 /* GitHubClientError.swift */,
 				13F8FA0B24323FC4004594A6 /* GitHubAPIError.swift */,
+				13F8FA0924323EC9004594A6 /* GitHubClientError.swift */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 		13F8FA0D24324DAE004594A6 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				13F8FA12243251B8004594A6 /* GitHubAPI.swift */,
 				13F8FA0E24324DC8004594A6 /* GitHubRequest.swift */,
 				13F8FA1024324FC8004594A6 /* HTTPMethod.swift */,
-				13F8FA12243251B8004594A6 /* GitHubAPI.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
