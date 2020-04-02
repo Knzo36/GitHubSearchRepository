@@ -39,7 +39,6 @@ class GitHubClient {
                 fatalError("invalid response combination \(data), \(response), \(error).")
             }
         }
-        
         task.resume()
     }
 }
